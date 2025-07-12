@@ -3,7 +3,6 @@ from tkinter import messagebox
 from itertools import product
 from sympy import symbols, SOPform, POSform
 
-# Theme: Light Frutiger Aero with blue & green K-map cells
 THEME = {
     "bg": "#f0f8ff",
     "fg": "#003366",
@@ -12,9 +11,9 @@ THEME = {
     "canvas_bg": "#ffffff",
     "cell_fill": "#d0ecff",
     "text_fill": "#003366",
-    "cell_on": "#66cc66",     # green for 1s
-    "cell_dc": "#cce5ff",     # light blue for don't-cares
-    "cell_off": "#d0ecff",    # light blue for 0s
+    "cell_on": "#66cc66",    
+    "cell_dc": "#cce5ff",     
+    "cell_off": "#d0ecff",    
     "outline": "#007acc",
     "button_bg": "#3399ff",
     "button_fg": "white"
