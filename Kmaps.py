@@ -69,7 +69,7 @@ def get_groupings(grid, rows, cols):
 class KMapApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("K-Maps Simplifier Project Abhijeet")
+        self.root.title("K-Maps Simplifier Project")
         self.build_ui()
 
     def build_ui(self):
@@ -82,11 +82,11 @@ class KMapApp:
         self.widgets["var_entry"] = self._entry("4", row)
 
         row += 1
-        self._label("Minterms Σm(...):", row)
+        self._label("Minterms Σm:", row)
         self.widgets["min_entry"] = self._entry("0,2,5,7,8,10,13,15", row)
 
         row += 1
-        self._label("Don't-cares Σd(...):", row)
+        self._label("Don't-cares Σd:", row)
         self.widgets["dc_entry"] = self._entry("1,3", row)
 
         row += 1
